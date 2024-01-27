@@ -1,0 +1,46 @@
+/* File name: contact.css
+Student’s Name: Aleli Macapagal
+StudentID: 301325488
+Date: Jan.27.2024 */
+
+#ffp{
+    max-width: 50rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;     
+    background-color: rgb(160, 186, 227);
+    border-radius: 25px;
+}
+
+label{
+    font-size:xx-large;
+    align-self: center;
+}
+
+input{
+    font-size: larger;
+    width: 45%;
+    height: 20%;
+    align-self: center;
+    background-color: rgb(79, 56, 231);
+}
+
+.submit{
+    font-size:x-large;
+    background-color: gray;
+    border-radius: 25px;
+}
+
+p,a{
+    font-size:x-large;
+    text-align: center;
+}
+
+p.test1 {
+    white-space: nowrap;
+    width: 200px;
+    border: 1px solid #000000;
+    overflow: hidden;
+    text-overflow: clip;
+  }

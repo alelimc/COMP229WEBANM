@@ -1,0 +1,61 @@
+/* File name: project.css
+Student’s Name: Aleli Macapagal
+StudentID: 301325488
+Date: Jan.27.2024 */
+
+#works {
+    margin: auto;
+    margin-right: 20%;
+    width: 80%;
+    border: 2px solid green;
+    padding: 25px;
+    background-color: antiquewhite;
+}
+
+.worksTitle{
+    margin: 1rem 0;
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.worksDesc {
+    font-weight: 300;
+    font-size: 2rem;
+}
+ .worksImgs{
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    height: 500px;
+    width: 300px;
+    padding-top: 0.5rem;
+}
+
+.worksImg{
+    /* object-fit: cover; */
+    height: 20rem;
+    /* margin: 8.5rem */
+}
+
+.worksProj{
+    /* margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%; */
+    text-align: center;
+    padding: 0.5rem 2.5rem;
+}
+.workBtn {
+    padding: 0.5rem 2.5rem;
+    border: none;
+    /* border-radius: 25%; */
+    background: white;
+    font-size: 1rem;
+}
+
+@media screen and (max-width:585px){
+    .worksImg{
+    height: 50vw;
+}
+}
